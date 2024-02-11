@@ -1,1 +1,2 @@
-# AngularJS_buildingmanagerment
+# This project is build with AngularJS
+-- Hi, everyone --
