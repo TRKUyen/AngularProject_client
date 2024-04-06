@@ -5,7 +5,10 @@
   <li>Create @node_modules: npm install //cài đặt node_modules.</li>
   <li>Create @angular modules: npm i -g @angular/cli //cài đặt @angular cores.</li>
   <li>Create module: npm install primeng //dựng style thông qua modules @import vào component tương thích <a href="https://primeng.org">PrimeNG</a></li>
+  <li>Create module: npm install primeicons //lấy mẫu icon từ prime</li>
 </ol>
+
+<p>**Lưu ý: Cần xem qua các download module trên Primeng vì sẽ có những import không xài được khi không cài đặt các modules</p>
 
 ## Development server
 <p>Trước đó phải chạy lệnh node server.js trong cmd cho bên Backend đọc dữ liệu. <a href="https://github.com/TRKUyen/AngularProject_server.git">LinkGithub</a></p>
