@@ -26,6 +26,7 @@ export interface Products {
 }
 
 export interface Product {
+    id?: number;    //TLinh
     price: string;
     name: string;
     image: string;
