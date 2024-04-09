@@ -5,10 +5,21 @@
     border-bottom: 1px solid var(--border-color) ;
 
     padding: 20px 10px;
-    box-sizing: border-box;
-}
 
-.logo{
-    height: 100%;
-    object-fit: contain;
+    box-sizing: border-box;
+
+    a {
+        text-decoration: none;
+        font-weight: 300;
+        color: red;
+        &.active{
+            font-weight: 900;
+        }
+    }
+    
+
+    .logo{
+      height: 100%;
+      object-fit: contain;
+    }
 }
