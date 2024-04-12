@@ -5,11 +5,13 @@ import { FormsModule } from '@angular/forms';
 import { ButtonModule } from 'primeng/button';
 import { ConfirmationService, MessageService } from 'primeng/api';
 import { ConfirmPopupModule } from 'primeng/confirmpopup';
+import {TruncateNamePipe} from '../../pipe/truncate-name.pipe'
+import { PricePipe} from '../../pipe/price.pipe'
 
 @Component({
   selector: 'app-product',
   standalone: true,
-  imports: [RatingModule, FormsModule, ButtonModule, ConfirmPopupModule],
+  imports: [RatingModule, FormsModule, ButtonModule, ConfirmPopupModule, TruncateNamePipe, PricePipe,],
   providers: [ConfirmationService, MessageService],
   templateUrl: './product.component.html',
   styleUrl: './product.component.scss'
