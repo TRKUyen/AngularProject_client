@@ -1,32 +1,5 @@
 .wrapper {
     width: 100%;
-<<<<<<< HEAD
-    height: 80px;
-
-    border-bottom: 1px solid var(--border-color) ;
-
-    padding: 20px 10px;
-
-    box-sizing: border-box;
-
-    a {
-        text-decoration: none;
-        font-weight: 300;
-        color: red;
-        &.active{
-            font-weight: 900;
-        }
-    }
-    
-
-    .logo{
-      height: 100%;
-      object-fit: contain;
-      height: 2rem;
-      margin-right: auto;
-    }
-}
-=======
   
     border-bottom: 1px solid var(--border-color);
   
@@ -53,4 +26,3 @@
       margin-right: auto;
     }
   }
->>>>>>> bbf6bb7 (van)
